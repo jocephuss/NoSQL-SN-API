@@ -15,11 +15,7 @@ app.use("/api", apiRoutes);
 
 // Connect to MongoDB database
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/socialNetworkDB",
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
+  process.env.MONGODB_URI || "mongodb://localhost/socialNetworkDB"
 );
 
 mongoose.set("debug", true); // Enable logging for mongoose operations

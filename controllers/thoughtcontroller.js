@@ -2,7 +2,6 @@ const { Thought, User } = require("../models");
 
 module.exports = {
   // Retrieve all thoughts. Return a 404 error if no thoughts are found.
-  getAllThoughts,
   getThoughts(req, res) {
     Thought.find()
       .then((thoughts) => res.json(thoughts))
