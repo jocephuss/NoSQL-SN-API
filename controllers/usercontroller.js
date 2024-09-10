@@ -11,13 +11,16 @@ module.exports = {
   // Retrieve a single user by their ID. Return a 404 error if the user is not
   getSingleUser(req, res) {
     User.findOne({ _id: req.params.userId })
-      .select("-_v")
-      .populate("thoughts, friends")
-      .then((user) =>
-        !user
-          ? res.status(404).json({ message: "User not found" })
-          : res.json(user)
-      )
+      .populate("thoughts")
+      .populate("friends")
+      .then((user) => {
+        if (!user) {
+          return res
+            .status(404)
+            .json({ message: "No user found with this ID!" });
+        }
+        res.json(user);
+      })
       .catch((err) => res.status(500).json(err));
   },
 
