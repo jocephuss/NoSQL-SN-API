@@ -4,7 +4,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-Creating an API for SN
+Creating an API for Social Networking
 
 ## Table of Contents
 - [Installation](#installation)
