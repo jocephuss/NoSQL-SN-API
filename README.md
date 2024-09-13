@@ -33,5 +33,5 @@ N/A
 Insomnia
 
 ## Questions
-For questions about the project, please contact [Jocephus](https://github.com/Jocephus).
+For questions about the project, please contact [Jocephuss](https://github.com/Jocephus).
 You can also reach out directly at rowlandjosiah14@gmail.com.
