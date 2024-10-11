@@ -17,8 +17,15 @@ Creating an API for Social Networking
 ## Installation
 N/A
 
+## Walkthrough
+https://drive.google.com/file/d/15d7-sMzE_HaQzsyXVamvBe6AERQYZayF/view
+
 ## Usage
 API to handle reactions, friends, "thoughts" and users.
+
+## Screenshot 
+![Screenshot 2024-09-13 163350](https://github.com/user-attachments/assets/57eab37c-ab42-4297-898c-e9f2c35a477b)
+
 
 
 ## License
